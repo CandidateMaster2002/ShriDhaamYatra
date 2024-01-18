@@ -30,9 +30,9 @@ const Header = () => {
     <header className="p-3 bg-dark text-white" style={headerStyle}>
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-         
+      
             <img
-              src="logo-dham-yatara.png"
+              src="/logo-dham-yatara.png"
               alt="Logo"
               width="40"
               height="32"
