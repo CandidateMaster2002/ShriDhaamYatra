@@ -35,7 +35,7 @@ const Header = () => {
             className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
           >
             <img
-              src="src/assets/logo-dham-yatara.png"
+              src="logo-dham-yatara.png"
               alt="Logo"
               width="40"
               height="32"
