@@ -11,8 +11,8 @@ const HomePage = () => {
 
   return (
     <>
+      <div className="containser" >
       <Header />
-      <div className="container" style={{ backgroundColor: 'pink' }}>
         <div className="row">
           <div className="col-md-6 order-md-2">
             <svg
