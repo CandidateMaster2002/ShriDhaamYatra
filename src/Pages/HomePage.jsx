@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <>
 <Header/>
-    <div className="container">
+    <div className="container" style={{backgroundColor:"pink"}}>
       <div className="row">
         <div className="col-md-6">
           <div className="error-template">
@@ -51,7 +51,7 @@ const HomePage = () => {
         xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" sketchType="MSPage">
           {/* Replace the placeholder comment with the image */}
-          <image href="src\assets\radhakrishna.jpeg" width="100%" height="100%" />
+          <image href="src\assets\radhakrishna.jpeg" width="80%" height="100%" />
         </g>
       </svg>
     </div>
