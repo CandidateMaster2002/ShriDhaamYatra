@@ -2,7 +2,8 @@ import React from 'react';
 import '../Styles/HomePage.css';
 import { FaWhatsapp } from 'react-icons/fa';
 import Header from '../Components/Header';
-
+import RadhaKrishna from "../assets/radhakrishna.jpeg"
+// import RadhaKrishna from "src\assets\radhakrishna.jpeg"
 const HomePage = () => {
   const handleCallClick = (phoneNumber) => {
     const telUrl = `tel:${phoneNumber}`;
@@ -15,25 +16,10 @@ const HomePage = () => {
       <Header />
         <div className="row">
           <div className="col-md-6 order-md-2">
-            <svg
-              className="svg-box"
-              width="100%"
-              height="auto"
-              viewBox="0 0 837 1045"
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                {/* Replace the placeholder comment with the image */}
-                <image
-                  href="src/assets/radhakrishna.jpeg"
-                  alt="Radha Krishna"
-                  width="100%"
-                  height="auto"
-                />
-              </g>
-            </svg>
+        
+          <img src={RadhaKrishna} alt="" height="auto" width="100%" style={{ maxWidth: '100%' }} />
+
+
           </div>
           <div className="col-md-6 order-md-1">
             <div className="error-template">

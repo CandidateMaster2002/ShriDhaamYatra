@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
+import Logo from "../assets/logo-dhamyatra.png"
 const Header = () => {
   const headerStyle = {
     maxHeight: "fit-content", // Adjust the maximum width as needed
@@ -32,7 +33,7 @@ const Header = () => {
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       
             <img
-              src="/logo-dham-yatara.png"
+              src={Logo}
               alt="Logo"
               width="40"
               height="32"
